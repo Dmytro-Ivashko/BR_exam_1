@@ -92,7 +92,7 @@ aside {
 }
 
 aside #aside-container {
-    width: 90%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,4 +125,117 @@ aside #aside-container nav li {
     text-transform: uppercase;
     text-decoration: none;
     margin: 10px;
+}
+
+main {
+    width: 100%;
+}
+
+main #why {
+    background: #f9f9fb url(../img/why-bg.jpg) no-repeat center/cover;
+    height: 685px;
+    display: flex;
+    justify-content: center;
+}
+
+main #why #why-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    border: 1px solid red;
+}
+
+#like {
+    background-color: #333333;
+    height: 337px;
+    display: flex;
+    justify-content: center;
+}
+
+#like #like-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    border: 1px solid red;
+}
+
+#spain-1 {
+    background: #232323 url(../img/spain-1-bg.jpg) no-repeat center/cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#spain-1 #spain-content {
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    opacity: 0.9;
+    margin-left: 17.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+    border: 1px solid red;
+    padding: 30px;
+}
+
+#spain-1 #spain-content h3 {
+    color: #e8e8e8;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+}
+
+#spain-1 #spain-content h2 {
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+#spain-1 #spain-content p {
+    color: #e8e8e8;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#spain-1 #spain-content button {
+    width: 225px;
+    height: 60px;
+    background-color: #5474fd;
+    border: none;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+#spain-2 {
+    background: #232323 url(../img/spain-2-bg.png) no-repeat center/cover;
+    height: 700px;
+}
+
+#what {
+    background: #232323 url(../img/what-bg.png) no-repeat center/cover;
+    height: 700px;
+}
+
+footer {
+    background: #232323;
+    height: 268px;
 }
