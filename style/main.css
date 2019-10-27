@@ -3,6 +3,9 @@ body {
     padding: 0;
     background: gray;
     height: 100vh;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    line-height: 26px;
 }
 
 ul {
@@ -27,19 +30,14 @@ header {
 }
 
 header h1 {
-    font-family: "Josefin Sans";
     font-size: 48px;
     font-weight: 700;
-    line-height: 26px;
     letter-spacing: 4.8px;
 }
 
 header p {
     color: #ffffff;
-    font-family: "Josefin Sans";
     font-size: 22px;
-    font-weight: 400;
-    line-height: 26px;
     letter-spacing: 6.82px;
 }
 
@@ -50,10 +48,7 @@ header p {
 
 .search-container input {
     color: #999999;
-    font-family: "Josefin Sans";
     font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
     letter-spacing: 2.8px;
     width: 500px;
     text-align: center;
@@ -65,8 +60,6 @@ header p {
     color: #ffffff;
     font-family: Aleo;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
     letter-spacing: 1.4px;
     background-color: #5474fd;
     border: 2px solid #ffffff;
@@ -77,10 +70,7 @@ header p {
 #scroll {
     text-align: center;
     color: #ffffff;
-    font-family: "Josefin Sans";
     font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
     letter-spacing: 2.8px;
     margin-top: 120px;
 }
@@ -101,10 +91,8 @@ aside #aside-container {
 
 aside #aside-container #logo {
     color: #ffffff;
-    font-family: "Josefin Sans";
     font-size: 24px;
     font-weight: 700;
-    line-height: 26px;
     text-transform: uppercase;
     letter-spacing: 2.4px;
 }
@@ -120,8 +108,6 @@ aside #aside-container nav li {
     color: #ffffff;
     font-family: Aleo;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
     text-transform: uppercase;
     text-decoration: none;
     margin: 10px;
@@ -187,28 +173,19 @@ main #why #why-content {
 
 #spain-1 #spain-content-1 h3 {
     color: #e8e8e8;
-    font-family: "Josefin Sans";
     font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
     letter-spacing: 1.5px;
 }
 
 #spain-1 #spain-content-1 h2 {
     color: #ffffff;
-    font-family: "Josefin Sans";
     font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
     text-transform: uppercase;
 }
 
 #spain-1 #spain-content-1 p {
     color: #e8e8e8;
-    font-family: "Josefin Sans";
     font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
 }
 
 #spain-1 #spain-content-1 button {
@@ -219,8 +196,6 @@ main #why #why-content {
     color: #ffffff;
     font-family: Aleo;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
 }
@@ -252,8 +227,6 @@ main #why #why-content {
     color: #e8e8e8;
     font-family: "Josefin Sans";
     font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
     letter-spacing: 1.5px;
 }
 
@@ -261,8 +234,6 @@ main #why #why-content {
     color: #ffffff;
     font-family: "Josefin Sans";
     font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
     text-transform: uppercase;
 }
 
@@ -270,8 +241,6 @@ main #why #why-content {
     color: #e8e8e8;
     font-family: "Josefin Sans";
     font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
 }
 
 #spain-2 #spain-content-2 button {
@@ -282,8 +251,6 @@ main #why #why-content {
     color: #ffffff;
     font-family: Aleo;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
 }

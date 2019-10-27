@@ -3,6 +3,10 @@ body {
     padding: 0;
     background: gray;
     height: 100vh;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    line-height: 26px;
+
     
 }
 ul {
@@ -25,18 +29,13 @@ header {
     align-items: center;
    
     h1 {
-        font-family: "Josefin Sans";
         font-size: 48px;
         font-weight: 700;
-        line-height: 26px;
         letter-spacing: 4.8px;
     }
     p {
         color: #ffffff;
-        font-family: "Josefin Sans";
         font-size: 22px;
-        font-weight: 400;
-        line-height: 26px;
         letter-spacing: 6.82px;
     }
 }
@@ -45,10 +44,7 @@ header {
     height: 60px;
     input {
         color: #999999;
-        font-family: "Josefin Sans";
         font-size: 14px;
-        font-weight: 400;
-        line-height: 26px;
         letter-spacing: 2.8px;
         width: 500px;
         text-align: center;
@@ -60,8 +56,6 @@ header {
         color: #ffffff;
         font-family: Aleo;
         font-size: 14px;
-        font-weight: 400;
-        line-height: 26px;
         letter-spacing: 1.4px;
         background-color: #5474fd;
         border: 2px solid #ffffff;
@@ -73,10 +67,7 @@ header {
 #scroll{
     text-align: center;
     color: #ffffff;
-    font-family: "Josefin Sans";
     font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
     letter-spacing: 2.8px;
     margin-top: 120px;
 }
@@ -94,10 +85,8 @@ aside {
 
         #logo{
             color: #ffffff;
-            font-family: "Josefin Sans";
             font-size: 24px;
             font-weight: 700;
-            line-height: 26px;
             text-transform: uppercase;
             letter-spacing: 2.4px;
         }
@@ -112,8 +101,6 @@ aside {
                 color: #ffffff;
                 font-family: Aleo;
                 font-size: 14px;
-                font-weight: 400;
-                line-height: 26px;
                 text-transform: uppercase;   
                 text-decoration: none;
                 margin: 10px;
@@ -174,26 +161,17 @@ main {
         padding: 30px;
         h3 {
             color: #e8e8e8;
-            font-family: "Josefin Sans";
             font-size: 20px;
-            font-weight: 400;
-            line-height: 26px;
             letter-spacing: 1.5px;
         }
         h2 {
             color: #ffffff;
-            font-family: "Josefin Sans";
             font-size: 20px;
-            font-weight: 400;
-            line-height: 26px;
             text-transform: uppercase;
         }
         p {
             color: #e8e8e8;
-            font-family: "Josefin Sans";
             font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
         }
         button {
             width: 225px;
@@ -203,8 +181,6 @@ main {
             color: #ffffff;
             font-family: Aleo;
             font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
             text-transform: uppercase;
             letter-spacing: 1.2px;
         }
@@ -233,24 +209,18 @@ main {
             color: #e8e8e8;
             font-family: "Josefin Sans";
             font-size: 20px;
-            font-weight: 400;
-            line-height: 26px;
             letter-spacing: 1.5px;
         }
         h2 {
             color: #ffffff;
             font-family: "Josefin Sans";
             font-size: 20px;
-            font-weight: 400;
-            line-height: 26px;
             text-transform: uppercase;
         }
         p {
             color: #e8e8e8;
             font-family: "Josefin Sans";
             font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
         }
         button {
             width: 225px;
@@ -260,8 +230,6 @@ main {
             color: #ffffff;
             font-family: Aleo;
             font-size: 16px;
-            font-weight: 400;
-            line-height: 26px;
             text-transform: uppercase;
             letter-spacing: 1.2px;
         }
