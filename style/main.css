@@ -6,6 +6,7 @@ body {
     font-family: "Josefin Sans";
     font-weight: 400;
     line-height: 26px;
+    color: #ffffff;
 }
 
 ul {
@@ -36,7 +37,6 @@ header h1 {
 }
 
 header p {
-    color: #ffffff;
     font-size: 22px;
     letter-spacing: 6.82px;
 }
@@ -57,7 +57,6 @@ header p {
 }
 
 .search-container button {
-    color: #ffffff;
     font-family: Aleo;
     font-size: 14px;
     letter-spacing: 1.4px;
@@ -69,7 +68,6 @@ header p {
 
 #scroll {
     text-align: center;
-    color: #ffffff;
     font-size: 14px;
     letter-spacing: 2.8px;
     margin-top: 120px;
@@ -90,7 +88,6 @@ aside #aside-container {
 }
 
 aside #aside-container #logo {
-    color: #ffffff;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -105,7 +102,6 @@ aside #aside-container nav ul {
 }
 
 aside #aside-container nav li {
-    color: #ffffff;
     font-family: Aleo;
     font-size: 14px;
     text-transform: uppercase;
@@ -167,7 +163,6 @@ main #why #why-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    color: white;
     padding: 30px;
 }
 
@@ -178,7 +173,6 @@ main #why #why-content {
 }
 
 #spain-1 #spain-content-1 h2 {
-    color: #ffffff;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -193,7 +187,6 @@ main #why #why-content {
     height: 60px;
     background-color: #5474fd;
     border: none;
-    color: #ffffff;
     font-family: Aleo;
     font-size: 16px;
     text-transform: uppercase;
@@ -219,27 +212,22 @@ main #why #why-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    color: white;
     padding: 30px;
 }
 
 #spain-2 #spain-content-2 h3 {
     color: #e8e8e8;
-    font-family: "Josefin Sans";
     font-size: 20px;
     letter-spacing: 1.5px;
 }
 
 #spain-2 #spain-content-2 h2 {
-    color: #ffffff;
-    font-family: "Josefin Sans";
     font-size: 20px;
     text-transform: uppercase;
 }
 
 #spain-2 #spain-content-2 p {
     color: #e8e8e8;
-    font-family: "Josefin Sans";
     font-size: 16px;
 }
 
@@ -248,7 +236,6 @@ main #why #why-content {
     height: 60px;
     background-color: #5474fd;
     border: none;
-    color: #ffffff;
     font-family: Aleo;
     font-size: 16px;
     text-transform: uppercase;
