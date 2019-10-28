@@ -1,4 +1,4 @@
-$main_width: 85%;
+$main_width: 86.44%;
 
 @mixin book_now_flex {
     display: flex;
@@ -193,9 +193,10 @@ main {
     img{
         width: 350px;
         height: 220px;
+        padding: 2px;
     }
     img:nth-child(1) {
-        margin-right: 200px;
+        margin-right: 37.86%;
       }
 }
 
