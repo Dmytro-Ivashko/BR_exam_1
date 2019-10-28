@@ -185,10 +185,14 @@ main #why #why-content {
 #how #how-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 86.44%;
     border: 1px solid red;
+}
+
+#how #how-content .fa {
+    font-size: 60px;
 }
 
 #spain-1 h3,
@@ -231,7 +235,7 @@ main #why #why-content {
     flex-direction: column;
     justify-content: flex-start;
     padding: 30px;
-    margin-left: 17.5%;
+    margin-left: 6.78%;
 }
 
 #spain-2 {
@@ -254,7 +258,7 @@ main #why #why-content {
     flex-direction: column;
     justify-content: flex-start;
     padding: 30px;
-    margin-right: 17.5%;
+    margin-right: 6.78%;
 }
 
 #what-review {
@@ -295,7 +299,7 @@ main #why #why-content {
     width: 665px;
     height: 100%;
     background-color: #333333;
-    padding: 50px 54px 48px 60px;
+    padding: 48px;
     box-sizing: border-box;
 }
 

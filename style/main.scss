@@ -1,4 +1,5 @@
 $main_width: 86.44%;
+$main_margin: 6.78%;
 
 @mixin book_now_flex {
     display: flex;
@@ -208,10 +209,13 @@ main {
     #how-content {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         width: $main_width;
         border: 1px solid red;
+        .fa {
+            font-size: 60px;
+        }
     }
 }
 
@@ -243,7 +247,7 @@ main {
 
     #spain-content-1 {
         @include book_now_container;
-        margin-left: 17.5%;
+        margin-left: $main_margin;
     }
 }
 
@@ -255,7 +259,7 @@ main {
 
     #spain-content-2 {
         @include book_now_container;
-        margin-right: 17.5%;
+        margin-right: $main_margin;
     }
 }
 
@@ -301,7 +305,7 @@ main {
         height: 100%;
         // height: 284px;
         background-color: #333333;
-        padding: 50px 54px 48px 60px;
+        padding: 48px;
         box-sizing: border-box;
 
     }
