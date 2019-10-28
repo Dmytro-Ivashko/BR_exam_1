@@ -70,7 +70,7 @@ header p {
 
 .search-container button {
     font-family: Aleo;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1.4px;
     background-color: #5474fd;
     color: white;
@@ -264,4 +264,45 @@ main #why #why-content {
 footer {
     background: #232323;
     height: 268px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer h2 {
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 3.36px;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+footer h3 {
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+}
+
+footer #icon .fa {
+    padding: 12px;
+    font-size: 14px;
+    width: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
