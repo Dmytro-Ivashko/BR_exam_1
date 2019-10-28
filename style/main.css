@@ -144,7 +144,6 @@ main #why #why-content {
     justify-content: space-between;
     align-items: center;
     width: 86.44%;
-    border: 1px solid red;
 }
 
 #why-info {
@@ -280,16 +279,21 @@ main #why #why-content {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    width: 86.44%;
+    min-height: 286px;
+    box-sizing: border-box;
 }
 
 #review-content img {
     width: 445px;
     height: 284px;
+    background-color: #333333;
 }
 
 #review-content #tourist-review {
     width: 665px;
-    height: 284px;
+    height: 100%;
     background-color: #333333;
     padding: 50px 54px 48px 60px;
     box-sizing: border-box;
@@ -304,8 +308,6 @@ footer {
 }
 
 footer h2 {
-    color: #ffffff;
-    font-family: "Josefin Sans";
     font-size: 24px;
     font-weight: 700;
     line-height: 26px;
@@ -316,10 +318,7 @@ footer h2 {
 }
 
 footer h3 {
-    color: #ffffff;
-    font-family: "Josefin Sans";
     font-size: 16px;
-    font-weight: 400;
     line-height: 26px;
     letter-spacing: 1.6px;
 }
