@@ -9,6 +9,18 @@ body {
     color: #ffffff;
 }
 
+button {
+    width: 225px;
+    height: 60px;
+    background-color: #5474fd;
+    border: none;
+    color: white;
+    font-family: Aleo;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
 ul {
     list-style: none;
 }
@@ -58,9 +70,10 @@ header p {
 
 .search-container button {
     font-family: Aleo;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1.4px;
     background-color: #5474fd;
+    color: white;
     border: 2px solid #ffffff;
     width: 150px;
     height: 60px;
@@ -145,52 +158,47 @@ main #why #why-content {
     border: 1px solid red;
 }
 
+#spain-1 h3,
+#spain-2 h3 {
+    color: #e8e8e8;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+}
+
+#spain-1 h2,
+#spain-2 h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#spain-1 p,
+#spain-2 p {
+    color: #e8e8e8;
+    font-size: 16px;
+}
+
 #spain-1 {
     background: #232323 url(../img/spain-1-bg.jpg) no-repeat center/cover;
     height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-start;
 }
 
 #spain-1 #spain-content-1 {
+    box-sizing: border-box;
     width: 540px;
     height: 371px;
     background-color: #232323;
     opacity: 0.9;
-    margin-left: 17.5%;
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 30px;
-}
-
-#spain-1 #spain-content-1 h3 {
-    color: #e8e8e8;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-}
-
-#spain-1 #spain-content-1 h2 {
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-#spain-1 #spain-content-1 p {
-    color: #e8e8e8;
-    font-size: 16px;
-}
-
-#spain-1 #spain-content-1 button {
-    width: 225px;
-    height: 60px;
-    background-color: #5474fd;
-    border: none;
-    font-family: Aleo;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
+    margin-left: 17.5%;
 }
 
 #spain-2 {
@@ -203,48 +211,54 @@ main #why #why-content {
 }
 
 #spain-2 #spain-content-2 {
+    box-sizing: border-box;
     width: 540px;
     height: 371px;
     background-color: #232323;
     opacity: 0.9;
-    margin-right: 17.5%;
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 30px;
+    margin-right: 17.5%;
 }
 
-#spain-2 #spain-content-2 h3 {
-    color: #e8e8e8;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-}
-
-#spain-2 #spain-content-2 h2 {
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-#spain-2 #spain-content-2 p {
-    color: #e8e8e8;
-    font-size: 16px;
-}
-
-#spain-2 #spain-content-2 button {
-    width: 225px;
-    height: 60px;
-    background-color: #5474fd;
-    border: none;
-    font-family: Aleo;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-}
-
-#what {
-    background: #232323 url(../img/what-bg.png) no-repeat center/cover;
+#what-review {
+    background: #232323 url(../img/tourist-review-bg.png) no-repeat center/cover;
     height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#what-review h2 {
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 120px;
+    margin-bottom: 94px;
+}
+
+#review-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#review-content img {
+    width: 445px;
+    height: 284px;
+}
+
+#review-content #tourist-review {
+    width: 665px;
+    height: 284px;
+    background-color: #333333;
+    padding: 50px 54px 48px 60px;
+    box-sizing: border-box;
 }
 
 footer {
