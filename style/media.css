@@ -1,0 +1,164 @@
+@media screen and (max-width: 1199px) {
+    button {
+        margin: auto;
+    }
+
+    #why-img img {
+        padding: 5px;
+    }
+
+    #why-img img:nth-child(1) {
+        margin-right: 0;
+    }
+
+    #what-review h2 {
+        margin: auto;
+    }
+
+    #review-content {
+        flex-direction: column;
+    }
+
+    #review-content img {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    #logo {
+        display: none;
+    }
+
+    aside #aside-container {
+        justify-content: center;
+    }
+
+    aside #aside-container nav ul {
+        justify-content: space-between;
+    }
+
+    main #why #why-content {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #why-info {
+        width: auto;
+    }
+
+    #why-img {
+        flex-direction: row;
+    }
+
+    #how #how-content h2 {
+        font-size: 30px;
+    }
+
+    #spain-1 #spain-content-1 {
+        margin: auto;
+    }
+
+    #spain-2 #spain-content-2 {
+        margin: auto;
+    }
+
+    #what-review h2 {
+        margin: auto;
+    }
+
+    #review-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .search-container {
+        width: 95%;
+    }
+
+    .search-container input {
+        width: 80%;
+    }
+
+    .search-container button {
+        width: 100px;
+    }
+
+    main #why {
+        height: 640px;
+    }
+
+    main #why #why-content {
+        text-align: center;
+    }
+
+    main #why #why-content button {
+        width: 95%;
+    }
+
+    #why-img img {
+        padding: 2px;
+        width: 175px;
+        height: auto;
+    }
+
+    #why-img img:nth-child(1) {
+        margin-right: 0;
+    }
+
+    #how {
+        display: none;
+    }
+
+    #spain-1 {
+        height: auto;
+    }
+
+    #spain-1 #spain-content-1 {
+        margin: auto;
+        width: auto;
+    }
+
+    #spain-1 #spain-content-1 h3, #spain-1 #spain-content-1 h2 {
+        text-align: center;
+    }
+
+    #spain-1 #spain-content-1 button {
+        width: 95%;
+    }
+
+    #spain-2 {
+        height: auto;
+    }
+
+    #spain-2 #spain-content-2 {
+        margin: auto;
+        width: auto;
+    }
+
+    #spain-2 #spain-content-2 h3, #spain-2 #spain-content-2 h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #spain-2 #spain-content-2 button {
+        width: 95%;
+    }
+
+    #what-review h2 {
+        font-size: 32px;
+    }
+
+    #review-content img {
+        width: 75%;
+        height: auto;
+    }
+
+    #review-content #tourist-review {
+        width: auto;
+    }
+
+    #review-content #tourist-review h3 {
+        text-align: center;
+    }
+}
