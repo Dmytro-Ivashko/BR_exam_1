@@ -21,6 +21,11 @@ button {
     letter-spacing: 1.2px;
 }
 
+button:hover {
+    opacity: 0.7;
+    color: white;
+}
+
 ul {
     list-style: none;
 }
@@ -188,11 +193,24 @@ main #why #why-content {
     justify-content: space-around;
     align-items: center;
     width: 86.44%;
-    border: 1px solid red;
 }
 
-#how #how-content .fa {
+#how #how-content img {
     font-size: 60px;
+    width: 58px;
+    height: 57px;
+}
+
+#how #how-content h2 {
+    color: #e8e8e8;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#how #how-content .how-element {
+    text-align: center;
 }
 
 #spain-1 h3,

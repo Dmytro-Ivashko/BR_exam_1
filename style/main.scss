@@ -42,6 +42,10 @@ button {
     text-transform: uppercase;
     letter-spacing: 1.2px;
 }
+button:hover {
+    opacity: 0.7;
+    color: white;
+}
 
 ul {
     list-style: none;
@@ -212,9 +216,20 @@ main {
         justify-content: space-around;
         align-items: center;
         width: $main_width;
-        border: 1px solid red;
-        .fa {
+        img {
             font-size: 60px;
+            width: 58px;
+            height: 57px;
+        }
+        h2 {
+            color: #e8e8e8;
+            font-family: Aleo;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+        .how-element{
+            text-align: center;
         }
     }
 }
