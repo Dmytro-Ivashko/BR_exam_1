@@ -19,11 +19,17 @@ $main_margin: 6.78%;
     justify-content: flex-start;
     padding: 30px;
 }
+@mixin jos_sans_400{
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+}
 
 body {
     margin: 0;
     padding: 0;
-    background: gray;
+    background-color: #333333;
     height: 100vh;
     font-family: "Josefin Sans";
     font-weight: 400;
@@ -68,8 +74,12 @@ header {
     align-items: center;
 
     h1 {
+        color: #ffffff;
+        font-family: "Josefin Sans";
         font-size: 48px;
         font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
         letter-spacing: 4.8px;
     }
 
@@ -103,7 +113,9 @@ header {
         border: 2px solid #ffffff;
         width: 150px;
         height: 60px;
-
+        .fa {
+            font-size: 14px;
+        }
     }
 
     button:hover {
@@ -205,7 +217,8 @@ main {
 }
 
 #how {
-    background-color: #333333;
+    // background-color: #333333;
+    // background-image: url(../img/Shape2.svg);
     height: 337px;
     display: flex;
     justify-content: center;
@@ -237,6 +250,7 @@ main {
 #spain-1,
 #spain-2 {
     h3 {
+        @include jos_sans_400();
         color: #e8e8e8;
         font-size: 20px;
         letter-spacing: 1.5px;
@@ -244,11 +258,13 @@ main {
     }
 
     h2 {
+        @include jos_sans_400();
         font-size: 20px;
         text-transform: uppercase;
     }
 
     p {
+        @include jos_sans_400();
         color: #e8e8e8;
         font-size: 16px;
     }
@@ -320,9 +336,23 @@ main {
         height: 100%;
         // height: 284px;
         background-color: #333333;
-        padding: 48px;
+        padding: 25px;
         box-sizing: border-box;
-
+        h3 {
+            color: #fefefe;
+            font-family: "Josefin Sans";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
+        p {
+            color: #e8e8e8;
+            font-family: "Josefin Sans";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
     }
 }
 
@@ -334,6 +364,7 @@ footer {
     text-align: center;
 
     h2 {
+        font-family: "Josefin Sans";
         font-size: 24px;
         font-weight: 700;
         line-height: 26px;
@@ -344,6 +375,7 @@ footer {
     }
 
     h3 {
+        @include jos_sans_400();
         font-size: 16px;
         line-height: 26px;
         letter-spacing: 1.6px;
