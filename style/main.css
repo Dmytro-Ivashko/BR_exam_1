@@ -193,9 +193,13 @@ main #why #why-content {
 }
 
 #how {
+    background: url(../img/shape.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 57.5%;
     height: 337px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #how #how-content {
@@ -222,6 +226,11 @@ main #why #why-content {
 
 #how #how-content .how-element {
     text-align: center;
+    transition: transform .2s;
+}
+
+#how #how-content .how-element::hover {
+    transform: scale(1.5);
 }
 
 #spain-1 h3,
