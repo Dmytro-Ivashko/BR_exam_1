@@ -74,14 +74,67 @@
 @media screen and (max-width: 680px) {
     .search-container {
         width: 95%;
+        height: 60px;
+        border-radius: 8px;
+        box-sizing: border-box;
     }
 
     .search-container input {
-        width: 80%;
+        width: 78%;
+        height: 40px;
+        border-radius: 8px;
+        letter-spacing: 2px;
+        vertical-align: auto;
+        vertical-align: auto;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 18px;
+        line-height: 22px;
     }
 
     .search-container button {
-        width: 100px;
+        display: none;
+        height: 60px;
+        width: 63px;
+    }
+
+    .search-container #mobile-button {
+        display: inline;
+        border-radius: 8px;
+        border: 1px solid #ffffff;
+    }
+
+    .search-container #mobile-button .fa {
+        font-size: 30px;
+    }
+
+    aside {
+        width: 100%;
+        height: 80px;
+        background-color: #5474fd;
+    }
+
+    aside #aside-container {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    aside #aside-container nav ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        list-style: none;
+    }
+
+    aside #aside-container nav li {
+        font-family: Aleo;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0px;
     }
 
     main #why {

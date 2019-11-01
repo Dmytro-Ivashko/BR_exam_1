@@ -49,6 +49,10 @@ button {
     text-transform: uppercase;
     letter-spacing: 1.2px;
 }
+#mobile-button {
+    // visibility: hidden;
+    display: none;
+}
 
 button:hover {
     opacity: 0.7;
