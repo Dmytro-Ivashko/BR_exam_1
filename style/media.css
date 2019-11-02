@@ -37,6 +37,10 @@
         justify-content: space-between;
     }
 
+    main #why {
+        height: 800px;
+    }
+
     main #why #why-content {
         flex-direction: column;
         justify-content: space-around;
@@ -44,10 +48,20 @@
 
     #why-info {
         width: auto;
+        text-align: center;
+    }
+
+    #why-info p {
+        text-align: left;
     }
 
     #why-img {
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    #why-img img {
+        width: 100%;
+        height: auto;
     }
 
     #how #how-content h2 {
@@ -109,7 +123,7 @@
     }
 
     main #why {
-        height: 640px;
+        height: 800px;
     }
 
     main #why #why-content {
@@ -120,9 +134,13 @@
         width: 95%;
     }
 
+    #why-img {
+        flex-direction: column;
+    }
+
     #why-img img {
         padding: 2px;
-        width: 175px;
+        width: 100%;
         height: auto;
     }
 

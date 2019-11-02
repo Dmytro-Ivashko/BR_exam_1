@@ -52,6 +52,7 @@ $main_margin: 6.78%;
 
     main {
         #why {
+            height: 800px;
             #why-content {
                 flex-direction: column;
                 justify-content: space-around;
@@ -61,11 +62,19 @@ $main_margin: 6.78%;
 
     #why-info {
         width: auto;
+        text-align: center;
+        p {
+            text-align: left;
+        }
     }
 
     #why-img {
-        flex-direction: row;
-
+        // flex-direction: row;
+        flex-direction: column;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 
     #how {
@@ -177,7 +186,7 @@ $main_margin: 6.78%;
 // //aside end
     main {
         #why {
-            height: 640px;
+            height: 800px;
 
             #why-content {
                 text-align: center;
@@ -190,9 +199,10 @@ $main_margin: 6.78%;
     }
 
     #why-img {
+        flex-direction: column;
         img {
             padding: 2px;
-            width: 175px;
+            width: 100%;
             height: auto;
         }
 
@@ -310,3 +320,5 @@ $main_margin: 6.78%;
     
 }
 }
+
+@media screen and (max-width: 680px) {}
